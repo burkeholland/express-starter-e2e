@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Hello Codespace World!' });
+  res.render('index', { title: 'Hello Codespaces!' });
 });
 
 module.exports = router;
